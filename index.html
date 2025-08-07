@@ -7,6 +7,52 @@
 	<title>Car Order Form</title>
 </head>
 <body>
-	
+	<h1>Home work for CSS flexbox</h1>
+	<div class="container">
+		<form>
+			<fieldset class="form-section">
+				<legend>Personal info</legend>
+
+				<div class="form-elem">
+					<label for="name">First name</label>
+					<input type="text" id="name" required>
+				</div>
+
+				<div class="form-elem">
+					<label for="lastname">Last Name</label>
+					<input type="text" id="lastname" required>
+				</div>
+
+				<div class="form-elem">
+					<label for="dtl">Birtday</label>
+					<input type="datetime-local" id="dtl">
+				</div>
+
+				<div class="form-elem">
+					<label for="male">Male</label>
+					<input type="radio" id="male" name="sex">
+				</div>
+				<div class="form-elem">
+					<label for="female">Female</label>
+					<input type="radio" id="female" name="sex">
+				</div>
+
+				<div class="form-elem">
+					<label for="exp">Drive experience</label>
+					<select name="exp" id="exp">
+						<option value="---">---</option>
+						<option value="1">expert</option>
+						<option value="2">more that 10</option>
+						<option value="3">5-10</option>
+						<option value="4">2-5</option>
+						<option value="5">less than 2</option>
+						<option value="6">beginner</option>
+					</select>
+				</div>
+
+			</fieldset>
+		</form>
+		<div class="buttons"></div>
+	</div>
 </body>
 </html>
