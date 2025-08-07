@@ -23,19 +23,19 @@
 					<input type="text" id="lastname" required>
 				</div>
 
-				<div class="form-elem">
-					<label for="dtl">Birtday</label>
-					<input type="datetime-local" id="dtl">
-				</div>
-
-				<div class="form-elem">
-					<label for="male">Male</label>
-					<input type="radio" id="male" name="sex">
-				</div>
-				<div class="form-elem">
-					<label for="female">Female</label>
-					<input type="radio" id="female" name="sex">
-				</div>
+				<div class="gender-elements">
+          <label>Gender</label>
+          <div class="gender-options">
+            <div class="form-elem">
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="sex">
+            </div>
+            <div class="form-elem">
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="sex">
+            </div>
+          </div>
+        </div>
 
 				<div class="form-elem">
 					<label for="exp">Drive experience</label>
@@ -102,27 +102,31 @@
 					<input type="checkbox" id="using" name="using">
 				</div>
 
-				<div>
-					<label>Color</label>
-					<label for="red">Red</label>
-					<input type="radio" id="red" name="color">
-				</div>
-				<div>
-					<label for="black">Black</label>
-					<input type="radio" id="black" name="color">
-				</div>
-				<div>
-					<label for="blue">Blue</label>
-					<input type="radio" id="blue" name="color">
-				</div>
-				<div>
-					<label for="white">White</label>
-					<input type="radio" id="white" name="color">
-				</div>
-				<div>
-					<label for="grey">Grey</label>
-					<input type="radio" id="grey" name="color">
-				</div>
+				<div class="form-elem">
+          <label>Color</label>
+            <div class="color-options">
+              <div class="color-option">
+                <label for="red">Red</label>
+                <input type="radio" id="red" name="color">
+              </div>
+              <div class="color-option">
+                <label for="black">Black</label>
+                <input type="radio" id="black" name="color">
+              </div>
+              <div class="color-option">
+                <label for="blue">Blue</label>
+                <input type="radio" id="blue" name="color">
+              </div>
+              <div class="color-option">
+                <label for="white">White</label>
+                <input type="radio" id="white" name="color">
+              </div>
+              <div class="color-option">
+                <label for="grey">Grey</label>
+                <input type="radio" id="grey" name="color">
+              </div>
+            </div>
+          </div>
 
 				<div class="form-elem">
 					<label for="range">Price</label>
