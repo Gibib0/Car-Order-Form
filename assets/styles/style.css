@@ -21,3 +21,27 @@ legend {
 	display: flex;
 	flex-direction: column;
 }
+
+.gender-elements {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.form-elem-radio {
+	display: flex;
+}
+
+.gender-options {
+	display: flex;
+	gap: 15px;
+}
+
+.color-options {
+	display: flex;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+}
