@@ -67,6 +67,7 @@ legend {
 	font-size: 17px;
 	border: 1px solid black;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 input[type='text'],
