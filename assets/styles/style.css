@@ -82,6 +82,7 @@ input[type="range"] {
 input[type='text'],
 input[type='email'],
 input[type='tel'],
+input[type='datetime-local'],
 textarea {
 	width: 70%;
 }
