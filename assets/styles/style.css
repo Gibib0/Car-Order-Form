@@ -38,8 +38,9 @@ legend {
 
 .form-elem {
 	display: flex;
-	flex-direction: column;
-	gap: 5px;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
 }
 
 .gender-elements {
