@@ -55,16 +55,6 @@ legend {
 	flex-wrap: wrap;
 }
 
-input[type="range"] {
-	width: 70%;
-}
-
-.range-labels {
-	display: flex;
-	justify-content: space-between;
-	width: 70%;
-}
-
 .buttons {
 	display: flex;
 	justify-content: center;
@@ -88,5 +78,20 @@ textarea {
 }
 
 select {
-	width: 45%;
+	width: 60%;
+}
+
+input[type='range'] {
+	width: 230px;
+}
+
+option {
+	font-size: 15px;
+	padding-right: 14px;
+}
+
+datalist {
+	display: flex;
+	justify-content: space-between;
+	width: 140px;
 }
