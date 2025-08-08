@@ -3,63 +3,66 @@
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding: 20px;
 }
 
 h1 {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .form-area {
 	display: flex;
-	justify-content: space-between;
-	width: 1000px;
+	gap: 5px;
 }
 
 .form-section {
-	flex: 1 1 500px;
+	flex: 1;
 	display: flex;
 	flex-direction: column;
-	gap: 13px;
+	gap: 15px;
 }
 
 legend {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .form-elem {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
-	gap: 10px;
 }
 
 .gender-elements {
 	display: flex;
-	gap: 15px;
-}
-
-.color-option, .color-options {
-	display: flex;
 	align-items: center;
-}
-
-.form-elem-radio {
-	display: flex;
-}
-
-.gender-options {
-	display: flex;
 	gap: 15px;
+}
+
+.radio-group {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.color-group{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input[type="range"] {
+	width: 70%;
+}
+
+.range-labels {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
 }
 
 .buttons {
