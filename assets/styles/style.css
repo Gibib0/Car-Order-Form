@@ -78,3 +78,14 @@ input[type="range"] {
 	border: 1px solid black;
 	border-radius: 4px;
 }
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+	width: 70%;
+}
+
+select {
+	width: 45%;
+}
